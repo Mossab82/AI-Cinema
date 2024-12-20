@@ -1,0 +1,65 @@
+{
+    "emotions": [
+        {
+            "word": "غضب",
+            "pos": "noun",
+            "emotion_type": "anger",
+            "intensity": 0.8,
+            "cultural_context": {
+                "expression": "controlled",
+                "social_rules": ["respect", "self_control"],
+                "dialectal_variations": {
+                    "gulf": ["معصب", "زعلان"],
+                    "egyptian": ["متنرفز", "مضايق"],
+                    "levantine": ["معصب", "زعلان"]
+                }
+            }
+        },
+        {
+            "word": "فرح",
+            "pos": "noun",
+            "emotion_type": "joy",
+            "intensity": 0.7,
+            "cultural_context": {
+                "expression": "open",
+                "social_rules": ["shared_celebration"],
+                "dialectal_variations": {
+                    "gulf": ["مستانس", "فرحان"],
+                    "egyptian": ["مبسوط", "فرحان"],
+                    "levantine": ["مبسوط", "فرحان"]
+                }
+            }
+        }
+    ],
+    "expression_contexts": {
+        "family": {
+            "allowed_emotions": ["joy", "mild_anger", "concern"],
+            "restricted_emotions": ["extreme_anger", "extreme_sadness"],
+            "cultural_notes": "Expression moderated by family hierarchy"
+        },
+        "business": {
+            "allowed_emotions": ["satisfaction", "mild_concern"],
+            "restricted_emotions": ["anger", "extreme_joy"],
+            "cultural_notes": "Professional restraint important"
+        }
+    },
+    "dialectal_patterns": {
+        "gulf": {
+            "emotion_markers": ["والله", "يا"],
+            "intensity_modifiers": ["مرة", "واجد"]
+        },
+        "egyptian": {
+            "emotion_markers": ["والله", "يا"],
+            "intensity_modifiers": ["أوي", "جداً"]
+        }
+    },
+    "metadata": {
+        "version": "1.0",
+        "entries": 4000,
+        "last_updated": "2024-01-15",
+        "sources": [
+            "AraSentic",
+            "Arabic Emotion Lexicon"
+        ]
+    }
+}
