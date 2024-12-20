@@ -1,0 +1,94 @@
+{
+    "verb_classes": [
+        {
+            "id": "greet-1",
+            "members": [
+                {
+                    "verb": "سلم",
+                    "frames": ["سلم على", "يسلم على"],
+                    "dialects": {
+                        "gulf": ["يسلم", "سلم"],
+                        "egyptian": ["يسلم", "سلم"],
+                        "levantine": ["بيسلم", "سلم"]
+                    },
+                    "cultural_context": {
+                        "formality": "formal",
+                        "settings": ["meeting", "greeting"],
+                        "social_rules": ["respect", "age_hierarchy"]
+                    }
+                }
+            ],
+            "frames": [
+                {
+                    "description": "Basic Greeting",
+                    "syntax": ["Agent V Patient"],
+                    "semantics": ["greeting", "social_interaction"],
+                    "examples": [
+                        "سلم محمد على أبيه",
+                        "يسلم الضيف على أهل المجلس"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "respect-1",
+            "members": [
+                {
+                    "verb": "احترم",
+                    "frames": ["يحترم", "احترم"],
+                    "dialects": {
+                        "gulf": ["يحترم", "محترم"],
+                        "egyptian": ["بيحترم", "محترم"],
+                        "levantine": ["بيحترم", "محترم"]
+                    },
+                    "cultural_context": {
+                        "formality": "formal",
+                        "settings": ["family", "business", "social"],
+                        "social_rules": ["hierarchy", "age_respect"]
+                    }
+                }
+            ],
+            "frames": [
+                {
+                    "description": "Show Respect",
+                    "syntax": ["Agent V Patient"],
+                    "semantics": ["respect", "social_norm"],
+                    "examples": [
+                        "يحترم الولد والديه",
+                        "احترم الجميع رأي الكبير"
+                    ]
+                }
+            ]
+        }
+    ],
+    "thematic_roles": [
+        {
+            "role": "Agent",
+            "properties": ["animate", "volitional"],
+            "restrictions": ["human"]
+        },
+        {
+            "role": "Patient",
+            "properties": ["affected"],
+            "restrictions": ["animate"]
+        }
+    ],
+    "cultural_contexts": {
+        "social_norms": [
+            "respect_hierarchy",
+            "family_values",
+            "hospitality"
+        ],
+        "settings": [
+            "family_gathering",
+            "business_meeting",
+            "social_visit"
+        ]
+    },
+    "metadata": {
+        "version": "2.0",
+        "entries": 12500,
+        "last_updated": "2024-01-15",
+        "cultural_annotations": true
+    }
+}
