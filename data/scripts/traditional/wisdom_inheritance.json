@@ -1,0 +1,115 @@
+{
+    "metadata": {
+        "title": "وصية الحكيم",
+        "genre": "traditional_wisdom",
+        "dialect": "classical_arabic",
+        "themes": ["wisdom_transmission", "family_values"]
+    },
+    "characters": [
+        {
+            "name": "الشيخ سالم",
+            "role": "elder_sage",
+            "age": 80,
+            "background": {
+                "position": "حكيم القبيلة",
+                "values": ["الحكمة", "التقوى", "العلم"],
+                "speech_pattern": "classical_formal"
+            }
+        },
+        {
+            "name": "عبدالرحمن",
+            "role": "grandson",
+            "age": 25,
+            "background": {
+                "position": "طالب علم",
+                "values": ["طلب العلم", "احترام الكبير"],
+                "speech_pattern": "respectful_formal"
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "id": "scene_001",
+            "heading": "مجلس الشيخ - داخلي - قبيل المغرب",
+            "setting_description": "مجلس بسيط مليء بالكتب والمخطوطات. ضوء الشمس المائل يتسلل من النافذة المشربية.",
+            "cultural_elements": [
+                "مجلس العلم",
+                "مخطوطات",
+                "مشربية"
+            ],
+            "action": "الشيخ سالم يجلس متكئاً على وسادة، بين يديه كتاب قديم. يدخل حفيده عبدالرحمن بأدب.",
+            "dialogue": [
+                {
+                    "character": "عبدالرحمن",
+                    "text": "السلام عليكم ورحمة الله وبركاته، يا جدي.",
+                    "dialect": "classical_arabic",
+                    "cultural_markers": ["السلام الكامل", "أدب الدخول"]
+                },
+                {
+                    "character": "الشيخ سالم",
+                    "text": "وعليكم السلام ورحمة الله وبركاته. تعال يا بني، اجلس قربي.",
+                    "dialect": "classical_arabic",
+                    "cultural_markers": ["رد السلام", "دعوة بمحبة"]
+                },
+                {
+                    "character": "الشيخ سالم",
+                    "text": "اعلم يا بني أن العلم كالماء، يجري من العالي إلى المنخفض. فتواضع للعلم يرفعك.",
+                    "dialect": "classical_arabic",
+                    "cultural_markers": ["حكمة", "تشبيه بليغ", "نصيحة"]
+                }
+            ]
+        },
+        {
+            "id": "scene_002",
+            "heading": "حديقة المنزل - خارجي - عصراً",
+            "setting_description": "حديقة تقليدية، فيها نخيل وأشجار حمضيات. مجلس صغير في ركن الحديقة.",
+            "cultural_elements": [
+                "نخيل",
+                "مجلس خارجي",
+                "طبيعة تقليدية"
+            ],
+            "action": "الشيخ سالم يمشي متكئاً على عصاه، يشير إلى النخلة أمامه، وعبدالرحمن يستمع باهتمام.",
+            "dialogue": [
+                {
+                    "character": "الشيخ سالم",
+                    "text": "انظر إلى هذه النخلة يا بني. أغرسها جدي، وسقاها أبي، وأثمرت في عهدي، وها أنت تأكل من ثمرها.",
+                    "dialect": "classical_arabic",
+                    "cultural_markers": ["رمزية النخلة", "تعاقب الأجيال"]
+                },
+                {
+                    "character": "عبدالرحمن",
+                    "text": "نعم يا جدي. وكذلك العلم، نغرسه في أنفسنا فيثمر لأجيالنا.",
+                    "dialect": "classical_arabic",
+                    "cultural_markers": ["فهم الحكمة", "ربط المعاني"]
+                }
+            ]
+        }
+    ],
+    "cultural_notes": {
+        "themes": [
+            {
+                "name": "نقل الحكمة",
+                "description": "التواصل المعرفي بين الأجيال",
+                "elements": ["الحكم", "الأمثال", "القصص"]
+            },
+            {
+                "name": "آداب طلب العلم",
+                "description": "الأدب مع العلماء والحكماء",
+                "elements": ["التواضع", "حسن الاستماع", "الأدب"]
+            }
+        ],
+        "linguistic_features": {
+            "primary_style": "classical_arabic",
+            "rhetorical_devices": [
+                "التشبيه",
+                "الاستعارة",
+                "الحكمة"
+            ]
+        },
+        "symbolic_elements": {
+            "physical": ["النخلة", "الكتب", "المجلس"],
+            "concepts": ["تعاقب الأجيال", "نقل المعرفة", "الحكمة"],
+            "values": ["احترام العلم", "التواضع", "الصبر"]
+        }
+    }
+}
