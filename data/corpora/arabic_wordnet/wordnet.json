@@ -1,0 +1,65 @@
+{
+    "synsets": [
+        {
+            "id": "n00001",
+            "words": ["مجلس", "ديوانية", "قاعة_استقبال"],
+            "pos": "n",
+            "definition": "غرفة في المنزل مخصصة لاستقبال الضيوف",
+            "cultural_context": {
+                "usage": "formal_gathering",
+                "social_significance": "traditional_hospitality",
+                "regional_variations": ["خليجي", "شامي"]
+            },
+            "relations": {
+                "hypernym": "n00123",
+                "hyponyms": ["n00234", "n00235"],
+                "related": ["n00345", "n00346"]
+            }
+        },
+        {
+            "id": "n00002",
+            "words": ["قهوة_عربية", "قهوة", "بن"],
+            "pos": "n",
+            "definition": "مشروب تقليدي يقدم للضيوف",
+            "cultural_context": {
+                "usage": "hospitality",
+                "social_significance": "traditional_welcoming",
+                "customs": ["تقديم_القهوة", "فنجان_القهوة"]
+            },
+            "relations": {
+                "hypernym": "n00124",
+                "related": ["n00347", "n00348"]
+            }
+        },
+        {
+            "id": "v00001",
+            "words": ["يحترم", "يبجل", "يقدر"],
+            "pos": "v",
+            "definition": "يظهر التقدير والاحترام",
+            "cultural_context": {
+                "usage": "social_interaction",
+                "social_significance": "respect_hierarchy",
+                "cultural_values": ["احترام_الكبير", "التواضع"]
+            },
+            "relations": {
+                "hypernym": "v00125",
+                "troponym": ["v00236", "v00237"]
+            }
+        }
+    ],
+    "relations": [
+        {
+            "id": "r00001",
+            "type": "hypernym",
+            "from_synset": "n00001",
+            "to_synset": "n00123"
+        }
+    ],
+    "metadata": {
+        "version": "1.0",
+        "entries": 23481,
+        "last_updated": "2024-01-15",
+        "source": "Princeton WordNet 3.0",
+        "cultural_extensions": true
+    }
+}
