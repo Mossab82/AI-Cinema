@@ -1,0 +1,117 @@
+{
+    "pragmatic_phrases": {
+        "greetings": {
+            "morning": {
+                "msa": "صباح الخير",
+                "gulf": {
+                    "formal": "صباح الخير",
+                    "informal": "صبحك الله بالخير"
+                },
+                "egyptian": {
+                    "formal": "صباح الخير",
+                    "informal": "صباح الفل"
+                },
+                "levantine": {
+                    "formal": "صباح الخير",
+                    "informal": "صباحو"
+                }
+            },
+            "evening": {
+                "msa": "مساء الخير",
+                "gulf": {
+                    "formal": "مساء الخير",
+                    "informal": "مساك الله بالخير"
+                },
+                "egyptian": {
+                    "formal": "مساء الخير",
+                    "informal": "مسا الفل"
+                }
+            }
+        },
+        "thanks": {
+            "basic": {
+                "msa": "شكراً",
+                "gulf": {
+                    "formal": "مشكور",
+                    "informal": "يعطيك العافية"
+                },
+                "egyptian": {
+                    "formal": "متشكر",
+                    "informal": "ميرسي"
+                },
+                "levantine": {
+                    "formal": "شكراً",
+                    "informal": "يسلمو"
+                }
+            }
+        }
+    },
+    "common_expressions": {
+        "agreement": {
+            "msa": "نعم، حسناً",
+            "gulf": ["إي والله", "زين"],
+            "egyptian": ["أيوة", "تمام"],
+            "levantine": ["إي", "منيح"]
+        },
+        "disagreement": {
+            "msa": "لا، غير صحيح",
+            "gulf": ["لا والله", "مب صح"],
+            "egyptian": ["لأ", "مش كدة"],
+            "levantine": ["لا", "مش هيك"]
+        }
+    },
+    "situational_phrases": {
+        "shopping": {
+            "asking_price": {
+                "msa": "كم سعر هذا؟",
+                "gulf": "بكم هذا؟",
+                "egyptian": "بكام ده؟",
+                "levantine": "قديش هاد؟"
+            },
+            "bargaining": {
+                "msa": "هل يمكن تخفيض السعر؟",
+                "gulf": "ما يصير أرخص؟",
+                "egyptian": "مفيش تخفيض؟",
+                "levantine": "ما في مجال أرخص؟"
+            }
+        },
+        "dining": {
+            "ordering": {
+                "msa": "أريد أن أطلب",
+                "gulf": "أبي أطلب",
+                "egyptian": "عايز أطلب",
+                "levantine": "بدي أطلب"
+            }
+        }
+    },
+    "cultural_expressions": {
+        "hospitality": {
+            "welcome": {
+                "msa": "أهلاً وسهلاً",
+                "gulf": ["حياك الله", "مرحبا الساع"],
+                "egyptian": ["أهلاً وسهلاً", "نورتنا"],
+                "levantine": ["أهلاً وسهلاً", "نورت"]
+            },
+            "offering": {
+                "msa": "تفضل",
+                "gulf": ["تفضل", "عزّك الله"],
+                "egyptian": ["اتفضل", "شرفت"],
+                "levantine": ["تفضل", "تكرم"]
+            }
+        }
+    },
+    "modern_expressions": {
+        "technology": {
+            "msa": "وسائل التواصل الاجتماعي",
+            "gulf": "السوشال ميديا",
+            "egyptian": "مواقع التواصل",
+            "levantine": "مواقع التواصل"
+        },
+        "business": {
+            "msa": "اجتماع عمل",
+            "gulf": "ميتنج",
+            "egyptian": "ميتنج",
+            "levantine": "اجتماع"
+        }
+    }
+}
