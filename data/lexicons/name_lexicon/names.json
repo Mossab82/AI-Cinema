@@ -1,0 +1,99 @@
+{
+    "names": [
+        {
+            "name": "عبدالله",
+            "gender": "male",
+            "origin": "arabic",
+            "meaning": "servant of Allah",
+            "cultural_significance": {
+                "religious": "high",
+                "traditional": "high",
+                "modern_usage": "common"
+            },
+            "regional_variants": {
+                "gulf": "عبدالله",
+                "egyptian": "عبدالله",
+                "levantine": "عبدالله"
+            },
+            "usage_context": {
+                "formality": "formal",
+                "generation": "all",
+                "social_status": "respected"
+            }
+        },
+        {
+            "name": "سلطان",
+            "gender": "male",
+            "origin": "arabic",
+            "meaning": "authority, ruler",
+            "cultural_significance": {
+                "traditional": "high",
+                "power_association": "high",
+                "modern_usage": "common"
+            },
+            "regional_variants": {
+                "gulf": "سلطان",
+                "egyptian": "سلطان",
+                "levantine": "سلطان"
+            },
+            "usage_context": {
+                "formality": "formal",
+                "generation": "traditional",
+                "social_status": "high"
+            }
+        },
+        {
+            "name": "نورة",
+            "gender": "female",
+            "origin": "arabic",
+            "meaning": "light",
+            "cultural_significance": {
+                "traditional": "medium",
+                "modern_usage": "common",
+                "poetic_association": "high"
+            },
+            "regional_variants": {
+                "gulf": "نورة",
+                "egyptian": "نور",
+                "levantine": "نور"
+            },
+            "usage_context": {
+                "formality": "both",
+                "generation": "all",
+                "social_status": "neutral"
+            }
+        }
+    ],
+    "name_categories": {
+        "religious": {
+            "prefix_patterns": ["عبد", "محمد"],
+            "cultural_weight": "high",
+            "modern_relevance": "high"
+        },
+        "traditional": {
+            "patterns": ["سلطان", "فيصل"],
+            "cultural_weight": "high",
+            "modern_relevance": "medium"
+        }
+    },
+    "usage_guidelines": {
+        "formal_settings": {
+            "preferred_patterns": ["full_name", "title_name"],
+            "avoided_patterns": ["nicknames", "diminutives"]
+        },
+        "family_settings": {
+            "preferred_patterns": ["first_name", "nickname"],
+            "age_specific": {
+                "elder": "title_name",
+                "peer": "first_name",
+                "younger": "nickname"
+            }
+        }
+    },
+    "metadata": {
+        "version": "2.0",
+        "entries": 3653,
+        "last_updated": "2024-01-15",
+        "cultural_annotations": true
+    }
+}
