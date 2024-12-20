@@ -1,0 +1,112 @@
+{
+    "metadata": {
+        "version": "2.0",
+        "total_sentences": 49000,
+        "num_dialects": 25,
+        "source": "MADAR Project",
+        "last_updated": "2024-01-15"
+    },
+    "parallel_sentences": [
+        {
+            "id": "MADAR-001",
+            "msa": "أريد أن أذهب إلى المطار",
+            "variants": {
+                "gulf_riyadh": "أبي أروح المطار",
+                "gulf_kuwait": "أبي أروح المطار",
+                "gulf_doha": "أبغي أروح المطار",
+                "gulf_dubai": "بغيت أروح المطار",
+                "egyptian_cairo": "عايز أروح المطار",
+                "egyptian_alex": "عاوز أروح المطار",
+                "levant_damascus": "بدي روح عالمطار",
+                "levant_beirut": "بدي روح عالمطار",
+                "levant_amman": "بدي أروح عالمطار",
+                "maghrebi_rabat": "بغيت نمشي للمطار",
+                "maghrebi_tunis": "نحب نمشي للمطار"
+            },
+            "context": "travel",
+            "formality": "neutral"
+        },
+        {
+            "id": "MADAR-002",
+            "msa": "كيف حال العائلة؟",
+            "variants": {
+                "gulf_riyadh": "كيف حال الأهل؟",
+                "gulf_kuwait": "شلون الأهل؟",
+                "gulf_doha": "كيف الأهل؟",
+                "gulf_dubai": "شحال الأهل؟",
+                "egyptian_cairo": "إزيك الأهل؟",
+                "egyptian_alex": "عامل إيه الأهل؟",
+                "levant_damascus": "كيف الأهل؟",
+                "levant_beirut": "كيف العيلة؟",
+                "levant_amman": "كيف الأهل؟",
+                "maghrebi_rabat": "كيف داير العائلة؟",
+                "maghrebi_tunis": "كيفاش العائلة؟"
+            },
+            "context": "greetings",
+            "formality": "informal"
+        },
+        {
+            "id": "MADAR-003",
+            "msa": "هذا الطعام لذيذ جداً",
+            "variants": {
+                "gulf_riyadh": "هالأكل مرة طيب",
+                "gulf_kuwait": "هالأكل واجد زين",
+                "gulf_doha": "هالأكل واايد طيب",
+                "gulf_dubai": "هالأكل واايد طيب",
+                "egyptian_cairo": "الأكل ده حلو أوي",
+                "egyptian_alex": "الأكل ده طيب قوي",
+                "levant_damascus": "هاد الأكل كتير طيب",
+                "levant_beirut": "هيدا الأكل كتير طيب",
+                "levant_amman": "هاظ الأكل كثير طيب",
+                "maghrebi_rabat": "هاد الماكلة بنينة بزاف",
+                "maghrebi_tunis": "الماكلة هاذي بنينة برشا"
+            },
+            "context": "food",
+            "formality": "informal"
+        }
+    ],
+    "dialectal_features": {
+        "gulf": {
+            "pronouns": {
+                "this": ["ها", "هال"],
+                "that": ["ذاك", "هذاك"]
+            },
+            "negation": ["ما", "مب", "مو"],
+            "future": ["ب", "راح"]
+        },
+        "egyptian": {
+            "pronouns": {
+                "this": ["دا", "دي"],
+                "that": ["داك", "ديك"]
+            },
+            "negation": ["مش", "ما"],
+            "future": ["ح", "ها"]
+        },
+        "levantine": {
+            "pronouns": {
+                "this": ["هاد", "هي"],
+                "that": ["هداك", "هديك"]
+            },
+            "negation": ["مش", "ما"],
+            "future": ["رح", "ح"]
+        }
+    },
+    "city_specific_features": {
+        "riyadh": {
+            "markers": ["مرة", "أبي"],
+            "vocabulary": {
+                "money": "فلوس",
+                "car": "سيارة",
+                "house": "بيت"
+            }
+        },
+        "cairo": {
+            "markers": ["أوي", "عايز"],
+            "vocabulary": {
+                "money": "فلوس",
+                "car": "عربية",
+                "house": "بيت"
+            }
+        }
+    }
+}
